@@ -1392,9 +1392,7 @@ config TOUCHSCREEN_FTS_N9
 	 report 5 touches at a time.
 
          If unsure, say N.
-	 
 source "drivers/input/touchscreen/focaltech_touch_n9/Kconfig"
-	 
 source "drivers/input/touchscreen/focaltech_touch/Kconfig"
 
 config TOUCHSCREEN_FT5X06
