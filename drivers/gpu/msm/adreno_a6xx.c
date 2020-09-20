@@ -3922,9 +3922,4 @@ struct adreno_gpudev adreno_a6xx_gpudev = {
 #ifdef CONFIG_CORESIGHT
 	.coresight = {&a6xx_coresight, &a6xx_coresight_cx},
 #endif
-	.clk_set_options = a6xx_clk_set_options,
-	.snapshot_preemption = a6xx_snapshot_preemption,
-	.zap_shader_unload = a6xx_zap_shader_unload,
-	.secure_pt_hibernate = a6xx_secure_pt_hibernate,
-	.secure_pt_restore = a6xx_secure_pt_restore,
 };

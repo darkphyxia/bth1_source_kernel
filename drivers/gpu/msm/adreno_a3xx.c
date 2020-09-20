@@ -1934,5 +1934,4 @@ struct adreno_gpudev adreno_a3xx_gpudev = {
 #ifdef CONFIG_CORESIGHT
 	.coresight = {&a3xx_coresight},
 #endif
-	.clk_set_options = a3xx_clk_set_options,
 };
